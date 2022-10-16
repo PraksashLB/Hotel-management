@@ -7,7 +7,12 @@ import java.util.Date;
  *
  * @author Faysal Ahmed
  */
-public class Booking {
+public class Booking {     
+
+
+
+
+
     
    // int CONFIRMED = 0;
    // int RESERVED = 1;   
@@ -121,6 +126,7 @@ public class Booking {
 
     public long getCheckOutDateTime() {
         return checkOutDateTime;
+        
     }
 
     public void setCheckOutDateTime(long checkOutDateTime) {
